@@ -10,31 +10,30 @@
 </head>
 <body>
 	
-		<header>
-			<div  class="logo_accueil"> 
-				<img src="images/logo/ohmyfood.png" alt="Oh My Food"> 
-			</div>
-			
-		</header>
+	<header class="header__accueil">
+        <p class="header__accueil__logo">
+            <img class="header__accueil__logo__img" src="images/logo/ohmyfood.png" alt="Logo de Ohmyfood ">
+        </p>
+    </header>
 
-		<main>
-			<!--Section localisation-->
-			<form class="localisation" method="post" >
+	<main class="section_main">
+		<!--Section localisation-->
+		<form class="localisation" method="post" >
 				<div class="localisation__place">
 					<i class="fa-solid fa-location-dot localisation__icon"></i>
 				</div>
 				<div class="localisation__recherche">
 					<input class="localisation__recherche__input" type="search" placeholder="Paris, Belleville">
 				</div>
-			</form>
-			<!--Section exploration-->
-			<section class="exploration">
+		</form>
+		<!--Section exploration-->
+		<section class="exploration">
 				<h2 class="exploration__h2">Réservez le menu qui vous convient</h2>
 				<p class="exploration__text">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
 				<button class="exploration__bouton bouton">Explorer nos restaurants</button>
-			</section> 
-			<!--Section fonctionnement-->
-			<section class="fonctionnement">
+		</section> 
+		<!--Section fonctionnement-->
+		<section class="fonctionnement">
 				<h3 class="fonctionnement__titre">Fonctionnement</h3>
 				<div class="fonctionnement__demarche">
 					<!--demarche 1-->
@@ -56,114 +55,114 @@
 						<p class="fonctionnement__demarche__carte__txt">Dégustez au restaurant</p>
 					</div>
 				</div>
-			</section>
-			<!--Section restaurants-->
-			<section class="restaurant">
+		</section>
+		<!--Section restaurants-->
+		<section class="restaurant">
 				<h3 class="restaurant__h3">Restaurants</h3>
 				<div class="restaurant__list">
-					<!--Card 1-->
-					<a href="la-palette-du-gout.html" class="restaurant__list__card">
-						<figure class="restaurant__list__card__image">
-							<img class="restaurant__list__card__image__img" src="images/restaurants/palette-du-gout.jpg" alt="Restaurant la palette du goût">
-							<p class="restaurant__list__card__image__new">Nouveau</p>
+					<!--Carte1-->
+					<a href="la-palette-du-gout.html" class="restaurant__list__carte">
+						<figure class="restaurant__list__carte__image">
+							<img class="restaurant__list__carte__image__img" src="images/restaurants/palette-du-gout.jpg" alt="Restaurant la palette du goût">
+							<p class="restaurant__list__carte__image__new">Nouveau</p>
 						</figure>
-						<div class="restaurant__list__card__body">
-							<div class="restaurant__list__card__body__title">
-								<h4 class="restaurant__list__card__body__title__h4">La palette du goût</h4>
-								<p class="restaurant__list__card__body__title__location">Ménilmontant</p>
+						<div class="restaurant__list__carte__block">
+							<div class="restaurant__list__carte__block__titre">
+								<h4 class="restaurant__list__carte__block__titre__h4">La palette du goût</h4>
+								<p class="restaurant__list__carte__block__titre__location">Ménilmontant</p>
 							</div>
-							<div class="restaurant__list__card__like">
-								<i class="fa-regular fa-heart restaurant__list__card__like--empty"></i>
-								<i class="fa-solid fa-heart restaurant__list__card__like--full"></i>
+							<div class="restaurant__list__carte__like">
+								<i class="fa-regular fa-heart restaurant__list__carte__like--vide"></i>
+								<i class="fa-solid fa-heart restaurant__list__carte__like--full"></i>
 							</div>
 						</div>
 					</a>
-					<!--Card 2-->
-					<a href="la-note-enchantee.html" class="restaurant__list__card">
-						<figure class="restaurant__list__card__image">
-							<img class="restaurant__list__card__image__img" src="images/restaurants/note-enchantee.jpg" alt="Restaurant la note enchantée">
-							<p class="restaurant__list__card__image__new">Nouveau</p>
+					<!--Carte2-->
+					<a href="la-note-enchantee.html" class="restaurant__list__carte">
+						<figure class="restaurant__list__carte__image">
+							<img class="restaurant__list__carte__image__img" src="images/restaurants/note-enchantee.jpg" alt="Restaurant la note enchantée">
+							<p class="restaurant__list__carte__image__new">Nouveau</p>
 						</figure>
-						<div class="restaurant__list__card__body">
-							<div class="restaurant__list__card__body__title">
-								<h4 class="restaurant__list__card__body__title__h4">La note enchantée</h4>
-								<p class="restaurant__list__card__body__title__location">Charonne</p>
+						<div class="restaurant__list__carte__block">
+							<div class="restaurant__list__carte__block__titre">
+								<h4 class="restaurant__list__carte__block__titre__h4">La note enchantée</h4>
+								<p class="restaurant__list__carte__block__titre__location">Charonne</p>
 							</div>
-							<div class="restaurant__list__card__like">
-								<i class="fa-regular fa-heart restaurant__list__card__like--empty"></i>
-								<i class="fa-solid fa-heart restaurant__list__card__like--full"></i>
+							<div class="restaurant__list__carte__like">
+								<i class="fa-regular fa-heart restaurant__list__carte__like--vide"></i>
+								<i class="fa-solid fa-heart restaurant__list__carte__like--full"></i>
 							</div>
 						</div>
 					</a>
-					<!--Card 3-->
-					<a href="a-la-francaise.html" class="restaurant__list__card">
-						<figure class="restaurant__list__card__image">
-							<img class="restaurant__list__card__image__img" src="images/restaurants/la-francaise.jpg" alt="Restaurant à la française">
+					<!--Carte3-->
+					<a href="a-la-francaise.html" class="restaurant__list__carte">
+						<figure class="restaurant__list__carte__image">
+							<img class="restaurant__list__carte__image__img" src="images/restaurants/la-francaise.jpg" alt="Restaurant à la française">
 						</figure>
-						<div class="restaurant__list__card__body">
-							<div class="restaurant__list__card__body__title">
-								<h4 class="restaurant__list__card__body__title__h4">A la française</h4>
-								<p class="restaurant__list__card__body__title__location">Cité Rouge</p>
+						<div class="restaurant__list__carte__block">
+							<div class="restaurant__list__carte__block__titre">
+								<h4 class="restaurant__list__carte__block__titre__h4">A la française</h4>
+								<p class="restaurant__list__carte__block__titre__location">Cité Rouge</p>
 							</div>
-							<div class="restaurant__list__card__like">
-							 <i class="fa-regular fa-heart restaurant__list__card__like--empty"></i>
-								<i class="fa-solid fa-heart restaurant__list__card__like--full"></i>
+							<div class="restaurant__list__carte__like">
+							 <i class="fa-regular fa-heart restaurant__list__carte__like--vide"></i>
+								<i class="fa-solid fa-heart restaurant__list__carte__like--full"></i>
 							</div>
 						</div>
 					</a>
-					<!--Card 4-->
-					<a href="le-delice-des-sens.html" class="restaurant__list__card">
-						<figure class="restaurant__list__card__image">
-							<img class="restaurant__list__card__image__img" src="images/restaurants/delice-des-sens.jpg" alt="Restaurant le délice des sens">
+					<!--Carte4-->
+					<a href="le-delice-des-sens.html" class="restaurant__list__carte">
+						<figure class="restaurant__list__carte__image">
+							<img class="restaurant__list__carte__image__img" src="images/restaurants/delice-des-sens.jpg" alt="Restaurant le délice des sens">
 						</figure>
-						<div class="restaurant__list__card__body">
-							<div class="restaurant__list__card__body__title">
-								<h4 class="restaurant__list__card__body__title__h4">La délice des sens</h4>
-								<p class="restaurant__list__card__body__title__location">Folie-Méricourt</p>
+						<div class="restaurant__list__carte__block">
+							<div class="restaurant__list__carte__block__titre">
+								<h4 class="restaurant__list__carte__block__titre__h4">La délice des sens</h4>
+								<p class="restaurant__list__carte__block__titre__location">Folie-Méricourt</p>
 							</div>
-							<div class="restaurant__list__card__like">
-								<i class="fa-regular fa-heart restaurant__list__card__like--empty"></i>
-								<i class="fa-solid fa-heart restaurant__list__card__like--full"></i>
+							<div class="restaurant__list__carte__like">
+								<i class="fa-regular fa-heart restaurant__list__carte__like--vide"></i>
+								<i class="fa-solid fa-heart restaurant__list__carte__like--full"></i>
 							</div>
 						</div>
 					</a>
 				</div>
-			</section>
+		</section>
 			
 			
 					  		  		 
-		</main>
+	</main>
 	
-		<footer>
-			<p class="footer__logo">
-				<img class="footer__logo__img" src="img/logo/ohmyfood.png" alt="Logo de Ohmyfood!">
-			</p>
-			<ul class="footer__block">
-				<!--Footer link 1-->
-				<li class="footer__block__list">
-					<a href="#" class="footer__link">
-						<i class="fa-solid fa-utensils footer__link__icon"></i>
-						<p class="footer__link__text">Proposer un restaurant</p>
-					</a>
-				</li>
-				 <!--Footer link 2-->
-				 <li class="footer__block__list">
-					<a href="#" class="footer__link">
+	<footer>
+		<p class="footer__logo">
+			<img class="footer__logo__image" src="images/logo/ohmyfood.png" alt="Logo  Ohmyfood ">
+		</p>
+		<ul class="footer__conteneur">
+			<!-- link1 -->
+			<li class="footer__conteneur__list">
+				<a href="#" class="footer__link">
+					<i class="fa-solid fa-utensils footer__link__icon"></i>
+					<p class="footer__link__text">Proposer un restaurant</p>
+				</a>
+			</li>
+			 <!--link2 -->
+			<li class="footer__conteneur__list">
+				<a href="#" class="footer__link">
 						<i class="fa-solid fa-handshake-angle footer__link__icon footer__link__icon--reduce"></i>
 						<p class="footer__link__text">Devenir partenaire</p>
-					</a>
-				</li>
-				<!--Footer link 3-->
-				<li class="footer__block__list">
-					<a href="#" class="footer__link">Mentions légales</a>
-				</li>
-				<!--Footer link 4 - Mailto-->
-				<li class="footer__block__list">
-					<a href="mailto:contact@ohmyfood.com" class="footer__link">Contact</a>
-				</li>
-			</ul>
+				</a>
+			</li>
+			<!--link3 -->
+			<li class="footer__conteneur__list">
+				<a href="#" class="footer__link">Mentions légales</a>
+			</li>
+			<!-- link4  -->
+			<li class="footer__conteneur__list">
+				<a href="mailto:contact@ohmyfood.com" class="footer__link">Contact</a>
+			</li>
+		</ul>
 									
-		</footer>
+	</footer>
          
 		
 	<script src="https://kit.fontawesome.com/aabe36442d.js" crossorigin="anonymous"></script>
