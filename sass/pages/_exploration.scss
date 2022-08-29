@@ -1,0 +1,26 @@
+
+.exploration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 22px;
+    background-color: #f6f6f6;
+       
+
+    &__text {
+      padding: 0px 25px 0px 25px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    &__h2 {
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        margin-bottom: 0px;
+        
+        
+      }
+}
