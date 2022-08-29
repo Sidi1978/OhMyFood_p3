@@ -3,6 +3,16 @@
 @import "layout/header-accueil";
 @import "layout/header-pages";
 
+//utils
+@import "utils/variables";
+@import "utils/mixin";
+
 //pages
 @import "pages/localisation";
 @import "pages/exploration";
+
+//composants
+@import "composants/bouton";
+
+
+
