@@ -1,0 +1,100 @@
+
+.fonctionnement {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.fonctionnement__titre{
+    width: 100%;
+}
+
+  
+.fonctionnement__demarche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    align-items: center;
+    gap: 25px;
+    
+}
+  
+.fonctionnement__demarche__carte {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 68px;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    background-color: #f6f6f6;
+    box-shadow: 0px 3px 11px #d2d2d2;
+  
+        
+    &__numero {
+          
+        left: -15px;
+        border-radius: 100%;
+        position: absolute;
+        color: #fff;
+        padding: 7px 10px 7px 10px;
+        background-color: $primaire-couleur;
+    }
+  
+    &__icon {
+        margin-left: 34px;
+        font-size: 21px;
+        color: #7e7e7e;
+    }
+  
+    &__txt {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 15px;
+      }
+}
+  
+.fonctionnement__demarche__carte:hover {
+    background-color: #f5edff;
+}
+  
+.fonctionnement__demarche__carte:hover > .fonctionnement__demarche__carte__icon {
+    color: $primaire-couleur;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .fonctionnement__titre{
+        font-size: 25px;
+        text-align: center;
+       
+    }
+    .fonctionnement__demarche{
+        flex-direction: row;
+          flex-wrap: wrap;
+          gap: 35px;
+    }
+    .fonctionnement__demarche__carte{
+        width: 45%;
+    }
+        
+} 
+
+@media screen and (min-width: 993px) {
+    .fonctionnement__titre{
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .fonctionnement__demarche{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fonctionnement__demarche__carte{
+        width: 30%;
+    }
+}   
