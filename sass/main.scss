@@ -1,11 +1,17 @@
 //layout
-@import "layout/footer";
-@import "layout/header-accueil";
-@import "layout/header-pages";
+@import "base/base";
 
 //utils
 @import "utils/variables";
 @import "utils/mixin";
+
+
+//layout
+@import "layout/footer";
+@import "layout/header-accueil";
+@import "layout/header-pages";
+
+
 
 //composants
 @import "composants/bouton";
