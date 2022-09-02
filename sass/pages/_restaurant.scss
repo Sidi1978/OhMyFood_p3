@@ -87,20 +87,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  margin-right: 10px;
   position: relative;
-
+  margin-right: 15px;
+  font-size: 22px;
+  
   &--animation {
     opacity: 0;
-    left: 0;
-    position: absolute;
     background: linear-gradient(360deg, $secondaire-couleur, $primaire-couleur);
-    background-clip: text;
     transition-timing-function: cubic-bezier(.18,.68,.83,.68);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition-duration: 550ms;
+    position: absolute;
+    transition-duration: 600ms;
 
     &:hover {
       opacity: 1;
