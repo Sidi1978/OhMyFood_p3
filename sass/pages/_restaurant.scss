@@ -95,9 +95,7 @@
     opacity: 0;
     background: linear-gradient(360deg, $secondaire-couleur, $primaire-couleur);
     transition-timing-function: cubic-bezier(.18,.68,.83,.68);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include resto-animation;
     position: absolute;
     transition-duration: 600ms;
 
