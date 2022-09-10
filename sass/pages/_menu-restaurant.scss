@@ -66,14 +66,14 @@
 .sectionmenu {
     display: flex;
     flex-direction: column;
-    animation: appear 600ms;
+    animation: anim-menu 700ms;
     animation-fill-mode: both;
     gap: 15px;
    
 }
 
 .sectionmenu--transition1 {
-  animation-delay: 350ms;
+  animation-delay: 300ms;
 }
 
 .sectionmenu--transition2 {
@@ -81,7 +81,7 @@
 }
 
 .sectionmenu--transition3 {
-  animation-delay: 650ms;
+  animation-delay: 700ms;
 }
 
 .sectionmenu__h2 {
