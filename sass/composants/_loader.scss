@@ -1,0 +1,31 @@
+
+ 
+   
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    gap: 20px;
+    z-index: 1;
+    animation: fin-loader 600ms 2600ms forwards;
+}
+
+.animation__cercle-1 {
+    color: $primaire-couleur;
+    animation:  mouvement-cercle 1s  infinite;
+}
+
+.animation__cercle-2 {
+    color: $secondaire-couleur;
+    animation: mouvement-cercle 1s  infinite;
+}
+
+.animation__cercle-3 {
+    color: $tertiaire-couleur;
+    animation: mouvement-cercle 1s  infinite;
+}
+  

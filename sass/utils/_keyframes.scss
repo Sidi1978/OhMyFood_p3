@@ -9,5 +9,30 @@
       transform: translateY(0px);
       opacity: 1;
     }
+}
+
+@keyframes fin-loader {
+  0% {
+    opacity: 1;
   }
+  100% {
+    opacity: 0;
+    
+  }
+}
+
+@keyframes mouvement-cercle {
+  0% {
+    transform: translateY(0px) scale(1.2, 0.8);
+    animation-timing-function: cubic-bezier(0.39, 0.66, 0.45, 0.95);
+  }
+  50% {
+    transform: translateY(-30px);
+    animation-timing-function: cubic-bezier(0.72, 0.13, 0.89, 0.6);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
   
