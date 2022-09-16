@@ -6,6 +6,38 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
+@keyframes anim-menu {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fin-loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes mouvement-cercle {
+  0% {
+    transform: translateY(0px) scale(1.2, 0.8);
+    animation-timing-function: cubic-bezier(0.39, 0.66, 0.45, 0.95);
+  }
+  50% {
+    transform: translateY(-30px);
+    animation-timing-function: cubic-bezier(0.72, 0.13, 0.89, 0.6);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -27,10 +59,11 @@ footer {
 
 .footer__logo {
   margin-top: 0px;
+  margin-bottom: 2px;
   padding-left: 22px;
 }
 
-.footer__logo__img {
+.footer__logo__image {
   width: 30%;
   margin-top: 0px;
   filter: invert(100%);
@@ -40,7 +73,7 @@ footer {
   display: flex;
   flex-direction: row;
   color: #fff;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   align-items: baseline;
 }
 
@@ -48,7 +81,7 @@ footer {
   padding-right: 12px;
 }
 
-.footer__link__icon--reduce {
+.footer__link__icon--taille {
   font-size: 11px;
 }
 
@@ -204,6 +237,34 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  gap: 20px;
+  z-index: 1;
+  animation: fin-loader 600ms 2600ms forwards;
+}
+
+.animation__cercle-1 {
+  color: #9356DC;
+  animation: mouvement-cercle 1s infinite;
+}
+
+.animation__cercle-2 {
+  color: #FF79DA;
+  animation: mouvement-cercle 1s infinite;
+}
+
+.animation__cercle-3 {
+  color: #99E2D0;
+  animation: mouvement-cercle 1s infinite;
 }
 
 .localisation {
@@ -538,13 +599,13 @@ input::placeholder {
 .sectionmenu {
   display: flex;
   flex-direction: column;
-  animation: appear 600ms;
+  animation: anim-menu 700ms;
   animation-fill-mode: both;
   gap: 15px;
 }
 
 .sectionmenu--transition1 {
-  animation-delay: 350ms;
+  animation-delay: 300ms;
 }
 
 .sectionmenu--transition2 {
@@ -552,7 +613,7 @@ input::placeholder {
 }
 
 .sectionmenu--transition3 {
-  animation-delay: 650ms;
+  animation-delay: 700ms;
 }
 
 .sectionmenu__h2 {
