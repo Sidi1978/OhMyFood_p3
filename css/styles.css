@@ -99,10 +99,10 @@ footer {
   .footer__logo {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 60%;
   }
   .footer__logo__img {
-    width: 18%;
+    width: 40%;
   }
 }
 @media screen and (min-width: 993px) {
@@ -119,11 +119,11 @@ footer {
   .footer__logo {
     display: flex;
     align-items: baseline;
-    width: 22%;
+    width: 30%;
     margin-bottom: 0px;
   }
   .footer__logo__img {
-    width: 68%;
+    width: 90%;
   }
 }
 .header__accueil {
@@ -249,7 +249,7 @@ a {
   background-color: white;
   gap: 20px;
   z-index: 1;
-  animation: fin-loader 600ms 2600ms forwards;
+  animation: fin-loader 700ms 2700ms forwards;
 }
 
 .animation__cercle-1 {
