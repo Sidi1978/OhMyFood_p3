@@ -136,12 +136,14 @@
 
 .grandblock__carte__content__titre {
     margin: 16px 0px 7px 10px;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
 .grandblock__carte__content__list {
     margin: 0px 0px 10px 10px;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
