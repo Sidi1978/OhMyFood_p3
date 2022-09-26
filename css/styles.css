@@ -104,6 +104,9 @@ footer {
   .footer__logo__img {
     width: 40%;
   }
+  .footer__link__icon {
+    padding-right: 12px;
+  }
 }
 @media screen and (min-width: 993px) {
   footer {
